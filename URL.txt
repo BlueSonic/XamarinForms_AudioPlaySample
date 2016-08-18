@@ -1,0 +1,5 @@
+Xamarin.FormsのAndroidで音楽を再生する方法
+http://sonic.blue/it/972
+
+This is MySite sample code files.
+Use Xamarin Studio.

@@ -1,0 +1,4 @@
+﻿<Properties StartupItem="Droid/AudioPlaySample.Droid.csproj">
+  <MonoDevelop.Ide.ItemProperties.AudioPlaySample.Droid PreferredExecutionTarget="Android.AVD_for_Nexus_10_by_Google" />
+  <MonoDevelop.Ide.ItemProperties.AudioPlaySample.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.5C6F262F-75BD-474A-80D2-F10AD97C6B8D" />
+</Properties>

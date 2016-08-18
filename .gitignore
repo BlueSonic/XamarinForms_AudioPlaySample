@@ -1,0 +1,7 @@
+Droid/obj/*
+Droid/bin/*
+iOS/obj/*
+iOS/bin/*
+
+#NuGet
+packages/
