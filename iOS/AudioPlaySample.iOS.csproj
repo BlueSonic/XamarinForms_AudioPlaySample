@@ -131,7 +131,6 @@
     <Compile Include="MediaPlayer_iOS.cs" />
   </ItemGroup>
   <ItemGroup>
-    <BundleResource Include="Resources\erica.mp3" />
     <BundleResource Include="Resources\shall_we_meet.mp3" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
