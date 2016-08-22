@@ -19,8 +19,6 @@ namespace AudioPlaySample.iOS
 					if (player == null)
 					{
 						var url = NSUrl.FromFilename(title + ".mp3");
-						Console.WriteLine("url: " + url);
-
 						NSError _err = null;
 				
 						player = new AVAudioPlayer(
@@ -29,12 +27,9 @@ namespace AudioPlaySample.iOS
 									out _err
 							     );
 
-						//player.Volume = 1;
 						player.NumberOfLoops = -1;//player.Looping = true;
 						player.PrepareToPlay();
 						player.Play();
-
-						Console.WriteLine("MusicPlayerStatus: " + player.Playing);
 					} else {
 						if (player.Playing == true) {
 							player.Stop();
